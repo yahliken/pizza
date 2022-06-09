@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(0, 96, 206);
+}
+#pizza_div{
+    font-family:  URW Chancery L, cursive;
+    color:rgb(197, 0, 0);
+    background-image: linear-gradient(#eb5600,#ff9102,#ffbb00,#e2ff3c);
+    width: 880px;
+    height: 490px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+#orders_div{
+    font-size: 19px;
+    font-family:  URW Chancery L, cursive;
+    color:rgb(94, 64, 64);
+    background-image: linear-gradient(#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ff0000,#ffffff,#ffffff,#ffffff,#ffffff,#ff0000,#ffffff,#ffffff,#ffffff,#ffffff,#ff0000,#ffffff,#ffffff,#ffffff,#ffffff,#ff0000,#ffffff,#ffffff,#ffffff,#ffffff,#ff0000,#ffffff,#ffffff,#ffffff,#ffffff,#ff0000);
+    width: 330px;
+    height: 490px;
+    margin-left: 1px;
+    margin-top: -514px;
+}
+
+#btn_place2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#btn_place3{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#your_pizza{
+    font-family:  URW Chancery L, cursive;
+    color :#525bd6  ;
+    border-radius : 25px ;
+    font-size: 20px;
+}
+
+#orders{
+    font-family:  URW Chancery L, cursive;
+    color :#525bd6  ;
+    border-radius : 25px ;
+    font-size: 20px;
+}
+
+input[type=button]{
+    font-size: 12px;
+    font-weight: bold;;
+    padding: 10px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.pizza_btn {
+    background-color: #ffd7c1;
+}
+.pizza-area {
+    margin:0 auto;
+}
+.orders-area {
+    margin:0 auto;
+}
+.game-board2 {
+    text-align: center;
+    margin-top: 250px;
+}
+.header4 {
+    font-family:Jazz LET, fantasy;
+    padding: 15px;
+    background: #fffefe96;
+    color: rgb(115, 0, 119);
+    font-size: 17px;
+  }
+#button2{
+    font-family:  URW Chancery L, cursive;
+    color :#525bd6  ;
+    border-radius : 25px ;
+    font-size: 27px;
+}
+
+#button4{
+    font-family:  URW Chancery L, cursive;
+    color :#525bd6  ;
+    border-radius : 25px ;
+    font-size: 27px;
+}
+.olive {
+    background-color: rgb(64, 87, 0);
+    color: #FFF;
+}
+.cheese{
+    background-color: rgb(255, 153, 0);
+    color: #FFF;
+}
+.tomato{
+    background-color: rgb(245, 29, 0);
+    color: #FFF;
+}
+.onion{
+    background-color: rgb(212, 194, 255);
+    color: rgb(16, 0, 73);
+}
+.corn{
+    background-color: rgb(249, 253, 0);
+    color: rgb(61, 0, 0);
+}
+.tabasco{
+    background-color: rgb(179, 64, 19);
+    color: #FFF;
+}
+.mushrooms{
+    background-color: rgb(196, 171, 139);
+    color: rgb(124, 75, 0);
+}
+.pineapple{
+    background-color: rgb(253, 255, 119);
+    color: rgb(141, 85, 0);
+}
