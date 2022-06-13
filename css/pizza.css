@@ -18,7 +18,7 @@ body{
     width: 330px;
     height: 490px;
     margin-left: 1px;
-    margin-top: -514px;
+    margin-top: -515px;
 }
 
 #btn_place2{
@@ -57,10 +57,12 @@ input[type=button]{
     background-color: #ffd7c1;
 }
 .pizza-area {
-    margin:0 auto;
+    margin-top: -15px;
 }
+
 .orders-area {
     margin:0 auto;
+    
 }
 .game-board2 {
     text-align: center;
