@@ -132,17 +132,17 @@ function add_topping(topping_name){
 
 
 function pizza_check(){
-    var too_much = false;
+    var too_many = false;
     var check = 0;
     if (selected_random_toppings.length >= pizza_toppings.length){
-        too_much = true;
+        too_many = true;
         for (let index = 0; index < random_toppings.length; index++) {
             if (selected_random_toppings.includes(random_toppings[index]) && pizza_toppings.includes(random_toppings[index])){
                 check++;
             }
         }
     }
-    if (check <= 4 && too_much == true) {
+    if (check <= 4 && too_many == true) {
         if (check == 4){
             alert("100% well done!!")
         }
@@ -159,7 +159,8 @@ function pizza_check(){
             alert("0% you wrong!!")
         }
     }
-    if (pizza_toppings.length > 4 && too_much == false){ 
+    if (pizza_toppings.length > 4 && too_many == false){ 
         alert("you picked too many toppings")
     }
+    
 }
