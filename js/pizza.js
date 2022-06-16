@@ -138,7 +138,7 @@ function add_topping(topping_name){
     }
 function add_image(){
     var img2 = document.createElement("img");
-    img2.src = "../pizza.images/olive.jpeg" ;
+    img2.src = "../pizza.images/olive.png" ;
     img2.className="jpeg_edit";
     img2.width = 150;
     img2.hight = 150;
@@ -146,7 +146,7 @@ function add_image(){
 }
 function add_image2(){
     var img3 = document.createElement("img");
-    img3.src = "../pizza.images/cheese.jpeg" ;
+    img3.src = "../pizza.images/cheese.png" ;
     img3.className="jpeg_edit";
     img3.width = 150;
     img3.hight = 150;
@@ -154,7 +154,7 @@ function add_image2(){
 }
 function add_image3(){
     var img4 = document.createElement("img");
-    img4.src = "../pizza.images/corn.jpeg" ;
+    img4.src = "../pizza.images/corn.png" ;
     img4.className="jpeg_edit";
     img4.width = 150;
     img4.hight = 150;
@@ -162,7 +162,7 @@ function add_image3(){
 }
 function add_image4(){
     var img5 = document.createElement("img");
-    img5.src = "../pizza.images/mushrooms.jpeg" ;
+    img5.src = "../pizza.images/mushrooms.png" ;
     img5.className="jpeg_edit";
     img5.width = 150;
     img5.hight = 150;
@@ -170,7 +170,7 @@ function add_image4(){
 }
 function add_image5(){
     var img6 = document.createElement("img");
-    img6.src = "../pizza.images/onion.jpeg" ;
+    img6.src = "../pizza.images/onion.png" ;
     img6.className="jpeg_edit";
     img6.width = 150;
     img.hight = 150;
@@ -178,7 +178,7 @@ function add_image5(){
 }
 function add_image6(){
     var img7 = document.createElement("img");
-    img7.src = "../pizza.images/pineapple.jpeg" ;
+    img7.src = "../pizza.images/pineapple.png" ;
     img7.className="jpeg_edit";
     img7.width = 150;
     img7.hight = 150;
@@ -194,7 +194,7 @@ function add_image7(){
 }
 function add_image8(){
     var img9 = document.createElement("img");
-    img9.src = "../pizza.images/tomatos.jpeg" ;
+    img9.src = "../pizza.images/tomatos.png" ;
     img9.className="jpeg_edit";
     img9.width = 150;
     img9.hight = 150;
