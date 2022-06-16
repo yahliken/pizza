@@ -133,29 +133,35 @@ function add_topping(topping_name){
 
 function pizza_check(){
     var too_many = false;
-    var check = 0;
-    if (selected_random_toppings.length >= pizza_toppings.length){
+    var correct_toppings = 0;
+    if (pizza_toppings.length<selected_random_toppings.length){
+        alert("You are missing toppings")
+     }
+    if (pizza_toppings.length>selected_random_toppings.length){
+     alert("You have too many toppings")
+    }
+    if (selected_random_toppings.length == pizza_toppings.length){
         too_many = true;
         for (let index = 0; index < random_toppings.length; index++) {
             if (selected_random_toppings.includes(random_toppings[index]) && pizza_toppings.includes(random_toppings[index])){
-                check++;
+                correct_toppings++;
             }
         }
     }
-    if (check <= 4 && too_many == true) {
-        if (check == 4){
+    if (correct_toppings <= 4 && too_many == true) {
+        if (correct_toppings == 4){
             alert("100% well done!!")
         }
-        if (check == 3){
+        if (correct_toppings == 3){
             alert("75% good job!!")
         }
-        if (check == 2){
+        if (correct_toppings == 2){
             alert("50% Almost correct!!")
         }
-        if (check == 1){
+        if (correct_toppings == 1){
             alert("25% Need improvement!!")
         }
-        if (check == 0){
+        if (correct_toppings == 0){
             alert("0% you wrong!!")
         }
     }
