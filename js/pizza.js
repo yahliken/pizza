@@ -96,6 +96,7 @@ function toppings_type(index){
     }
 }
 function pizza_orders(){
+    
     document.getElementById('board2').innerHTML = '';
     random_toppings = ["pineapple", "mushrooms", "tabasco", "corn", "onion", "tomato", "cheese", "olive"]
     var random;
@@ -111,7 +112,6 @@ function pizza_orders(){
         } 
     }
     alert(selected_random_toppings)
-    //document.getElementById("orders_div").innerHTML = selected_random_toppings;
     document.getElementById("toppings_label_div").innerHTML = selected_random_toppings;
     pizza_btns = new Array();
     var index = 0;
@@ -130,6 +130,7 @@ function pizza_orders(){
         var breakline = document.createElement("br");
         document.getElementById('board2').appendChild(breakline);
     }
+    hide_images();
 }
 function add_topping(topping_name){
     if (pizza_toppings.includes(topping_name) == false) {
@@ -137,68 +138,84 @@ function add_topping(topping_name){
         }
     }
 function add_image(){
-    var img2 = document.createElement("img");
+    /*var img2 = document.createElement("img");
     img2.src = "../pizza.images/olive.png" ;
     img2.className="png_edit";
     img2.width = 150;
     img2.hight = 150;
-    document.body.appendChild(img2);
+    document.body.appendChild(img2);*/
+    document.getElementById("olive_pic").style.visibility= "visible";
+
 }
 function add_image2(){
-    var img3 = document.createElement("img");
+    /*var img3 = document.createElement("img");
     img3.src = "../pizza.images/cheese.png" ;
     img3.className="png_edit";
     img3.width = 150;
     img3.hight = 150;
-    document.body.appendChild(img3);
+    document.body.appendChild(img3);*/
+    document.getElementById("cheese_pic").style.visibility= "visible";
+
 }
 function add_image3(){
-    var img4 = document.createElement("img");
+    /*var img4 = document.createElement("img");
     img4.src = "../pizza.images/corn.png" ;
     img4.className="png_edit";
     img4.width = 150;
     img4.hight = 150;
-    document.body.appendChild(img4);
+    document.body.appendChild(img4);*/
+    document.getElementById("corn_pic").style.visibility= "visible";
+
 }
 function add_image4(){
-    var img5 = document.createElement("img");
+    /*var img5 = document.createElement("img");
     img5.src = "../pizza.images/mushrooms.png" ;
     img5.className="png_edit";
     img5.width = 150;
     img5.hight = 150;
-    document.body.appendChild(img5);
+    document.body.appendChild(img5);*/
+    document.getElementById("mushrooms_pic").style.visibility= "visible";
+
 }
 function add_image5(){
-    var img6 = document.createElement("img");
+    /*var img6 = document.createElement("img");
     img6.src = "../pizza.images/onion.png" ;
     img6.className="png_edit";
     img6.width = 150;
-    img.hight = 150;
-    document.body.appendChild(img6);
+    img6.hight = 150;
+    document.body.appendChild(img6);*/
+    document.getElementById("onion_pic").style.visibility= "visible";
+
 }
 function add_image6(){
-    var img7 = document.createElement("img");
+    /*var img7 = document.createElement("img");
     img7.src = "../pizza.images/pineapple.png" ;
     img7.className="png_edit";
     img7.width = 150;
     img7.hight = 150;
-    document.body.appendChild(img7);
+    document.body.appendChild(img7);*/
+    document.getElementById("pineapple_pic").style.visibility= "visible";
+
 }
 function add_image7(){
-    var img8 = document.createElement("img");
+    /*var img8 = document.createElement("img");
     img8.src = "../pizza.images/tabasco.png" ;
     img8.className="png_edit";
     img8.width = 150;
     img8.hight = 150;
-    document.body.appendChild(img8);
+    document.body.appendChild(img8);*/
+    document.getElementById("tabasco_pic").style.visibility= "visible";
+
 }
 function add_image8(){
-    var img9 = document.createElement("img");
+    /*var img9 = document.createElement("img");
     img9.src = "../pizza.images/tomatos.png" ;
     img9.className="png_edit";
     img9.width = 150;
     img9.hight = 150;
-    document.body.appendChild(img9);
+    document.body.appendChild(img9);*/
+    document.getElementById("tomatos_pic").style.visibility= "visible";
+
 }
 
 
@@ -209,7 +226,7 @@ function pizza_check(){
         alert("You are missing toppings")
      }
     if (pizza_toppings.length>selected_random_toppings.length){
-     alert("You have too many toppings")
+        alert("You have too many toppings")
     }
     if (selected_random_toppings.length == pizza_toppings.length){
         too_many = true;
@@ -236,8 +253,16 @@ function pizza_check(){
             alert("0% you wrong!!")
         }
     }
-    if (pizza_toppings.length > 4 && too_many == false){ 
-        alert("you picked too many toppings")
-    }
     
+}
+function hide_images(){
+    document.getElementById("olive_pic").style.visibility= "hidden";
+    document.getElementById("corn_pic").style.visibility= "hidden";
+    document.getElementById("cheese_pic").style.visibility= "hidden";
+    document.getElementById("pineapple_pic").style.visibility= "hidden";
+    document.getElementById("tabasco_pic").style.visibility= "hidden";
+    document.getElementById("onion_pic").style.visibility= "hidden";
+    document.getElementById("tomatos_pic").style.visibility= "hidden";
+    document.getElementById("mushrooms_pic").style.visibility= "hidden";
+
 }

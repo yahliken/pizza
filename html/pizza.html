@@ -24,8 +24,17 @@
             <div id="btn_place3">
             <button onclick="pizza_check()" id="finish_the_pizza">I finish the pizza!👍</button>
             </div>
-            <div id="pizza_pics">
-            <img id="base_pic" src="../pizza.images/base.png"></div>
+            <div id="pizza_pics" style="position: relative">
+            <img id="base_pic" class="base_pic" src="../pizza.images/base.png" style="position: absolute">
+            <img id="olive_pic" class="base_pic" src="../pizza.images/olive.png" style="z-index:1;position: absolute; visibility: hidden;" >
+            <img id="cheese_pic" class="base_pic" src="../pizza.images/cheese.png" style="z-index:1;position: absolute; visibility: hidden;" >
+            <img id="corn_pic" class="base_pic" src="../pizza.images/corn.png" style="z-index:1;position: absolute; visibility: hidden;" >
+            <img id="mushrooms_pic" class="base_pic" src="../pizza.images/mushrooms.png" style="z-index:1;position: absolute; visibility: hidden;" >
+            <img id="onion_pic" class="base_pic" src="../pizza.images/onion.png" style="z-index:1;position: absolute; visibility: hidden;" >
+            <img id="pineapple_pic" class="base_pic" src="../pizza.images/pineapple.png" style="z-index:1;position: absolute; visibility: hidden;" >
+            <img id="tabaco_pic" class="base_pic" src="../pizza.images/tabasco.png" style="z-index:1;position: absolute; visibility: hidden;" >
+            <img id="tomatos_pic" class="base_pic" src="../pizza.images/tomatos.png" style="z-index:1;position: absolute; visibility: hidden;" >
+        </div>
             <div id="board2" class="game-board2"></div>
         </div>
     </div>
