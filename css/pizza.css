@@ -134,3 +134,9 @@ input[type=button]{
     margin-left: 885px;
     margin-top: -155px;
 }
+.png_edit{
+    height: 220px;
+    width: 220px;
+    margin-left: 12px;
+    margin-top: 100px;
+}
